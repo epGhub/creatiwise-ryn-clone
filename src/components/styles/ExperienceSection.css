@@ -1,0 +1,118 @@
+/* ExperienceSection.css */
+
+.experience {
+  background-color:#010208;
+  color: white;
+  padding: 60px 100px;
+  margin: auto;
+}
+
+.experience-title {
+  font-size: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 5px;
+}
+
+.experience-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 15px 0;
+  border-bottom: 1px solid #a4a4a4; 
+  align-items: center;
+}
+
+.role {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.company-period {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  gap: 10px;
+}
+
+.company {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.period {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .experience {
+    padding: 50px 60px;
+  }
+
+  .experience-title {
+    font-size: 28px;
+  }
+
+  .role {
+    font-size: 18px;
+  }
+
+  .company {
+    font-size: 18px;
+  }
+
+  .period {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 768px) {
+  .experience {
+    padding: 40px 30px;
+  }
+
+  .experience-title {
+    font-size: 26px;
+  }
+
+  .role {
+    font-size: 17px;
+  }
+
+  .company {
+    font-size: 17px;
+  }
+
+  .period {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience {
+    padding: 30px 20px;
+  }
+
+  .experience-title {
+    font-size: 22px;
+  }
+
+  .role {
+    font-size: 16px;
+  }
+
+  .company {
+    font-size: 16px;
+  }
+
+  .period {
+    font-size: 10px;
+  }
+}

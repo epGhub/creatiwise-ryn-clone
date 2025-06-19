@@ -1,0 +1,144 @@
+.hero-section {
+  background-color: #010208;
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 80px 0;
+  font-family: 'Syne', sans-serif;
+}
+
+.hero-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.header-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  line-height: 1.2;
+}
+
+.header-text span {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.header-text img {
+  width: 150px;
+  height: 85px;
+  margin: 0 6px;
+  border-radius: 24px;
+}
+
+.description-sec {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+  gap: 60px; 
+  font-family: 'Poppins', sans-serif;
+  color: #D1D1D1;
+  font-size: 12px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.dorodesign {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  width: 30px;
+}
+
+.dorodesignLogo {
+  width: 30px;
+}
+
+
+.description-sec span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.description-sec span img {
+  width: 80px;
+  height: auto;
+}
+
+.portfolio-text {
+  max-width: 600px;
+}
+
+/* Medium Screens */
+@media (max-width: 1024px) {
+  .header-text span {
+    font-size: 50px;
+  }
+
+  .header-text img {
+    width: 120px;
+    height: 70px;
+  }
+
+  .description-sec {
+    gap: 30px;
+    font-size: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .portfolio-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .description-sec {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .description-sec span {
+    justify-content: center;
+  }
+
+  .portfolio-text {
+    text-align: center;
+  }
+}
+
+/* Small Phones */
+@media (max-width: 480px) {
+  .header-text span {
+    font-size: 12px;
+  }
+
+  .header-text img {
+    width: 80px;
+    height: 48px;
+  }
+
+  .description-sec {
+    font-size: 14px;
+    gap: 20px;
+    padding: 0 16px;
+  }
+
+  .hero-container {
+    padding: 0 12px;
+  }
+}
+
