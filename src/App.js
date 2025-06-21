@@ -1,6 +1,5 @@
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-import ClientsSection from './components/ClientsSection';
 import ExpertiseSection from './components/ExpertiseSection';
 import WorksSection from './components/WorksSection';
 import ExperienceSection from './components/ExperienceSection';
@@ -14,7 +13,6 @@ function App() {
     <>
       <Navbar />
       <HeroSection />
-      {/* <ClientsSection /> */}
       <ExpertiseSection />
       <WorksSection />
       <ExperienceSection />
@@ -28,20 +26,3 @@ function App() {
 
 export default App;
 
-
-
-// // src/App.js
-// import React from 'react';
-// import HeroSection from './components/HeroSection';
-// import WorksSection from './components/WorksSection';
-
-// function App() {
-//   return (
-//     <div>
-//       <HeroSection />
-//       <WorksSection />
-//     </div>
-//   );
-// }
-
-// export default App;

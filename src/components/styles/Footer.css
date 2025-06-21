@@ -1,4 +1,3 @@
-/* Footer.css */
 
 .footer {
   background-color: #010208;
@@ -96,7 +95,7 @@
   cursor: pointer;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .marquee-track {
     font-size: 14px;

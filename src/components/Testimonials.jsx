@@ -1,29 +1,3 @@
-// // components/TestimonialSection.jsx
-// import React from "react";
-// import "./styles/Testimonials.css";
-
-// const TestimonialSection = () => {
-//   return (
-//     <section className="testimonial" id="testimonial">
-//       <h2 className="testimonial-title">💬 What they say</h2>
-//       <div className="testimonial-content">
-//         <div className="user-info">
-//           <img src="/images/user.jpg" alt="Thryl Miles" />
-//           <p>Thryl Miles<br /><span>@thryl</span></p>
-//         </div>
-//         <blockquote>
-//           Synergy’s resume builder is fantastic. It helped me create a professional resume that stood out to employers. Synergy’s resume builder is fantastic. It helped me create a professional resume that stood out to employers.
-//         </blockquote>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default TestimonialSection;
-
-
-
-// components/TestimonialSection.jsx
 import React from "react";
 import "./styles/Testimonials.css";
 

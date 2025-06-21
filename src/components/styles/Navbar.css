@@ -1,5 +1,4 @@
 
-/* Base Styles */
 .navbar {
   background-color: #010208;
   color: white;
@@ -81,7 +80,7 @@
   border-radius: 3px;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   .hamburger {
     display: flex;
@@ -105,6 +104,6 @@
   }
 
   .contact-wrapper {
-    display: none; /* Optional: move Hear Me inside nav-links if needed */
+    display: none; 
   }
 }

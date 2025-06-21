@@ -1,4 +1,4 @@
-// components/ExpertiseSection.jsx
+
 import React from "react";
 import "./styles/ExpertiseSection.css";
 
@@ -28,25 +28,7 @@ const expertiseList = [
 
 const ExpertiseSection = () => {
   return (
-    // <section className="expertise" id="expertise">
-    //  <h2 className="expertise-title">
-    //      <img src="/imgs/expertiseLogo.svg" alt="Wavefun" />
-    //       Expertise
-    //   </h2>
-
-    //   <div className="expertise-cards">
-    //     {expertiseList.map((item, index) => (
-    //       <div className="expertise-card" key={index}>
-    //            <div className="expertise-title-row">
-    //             <div className="icon"></div>
-    //             <h3>{item.title}</h3>
-    //           </div>
-    //           <p>{item.description}</p>
-    //       </div>
-
-    //     ))}
-    //   </div>
-    // </section>
+   
     <section className="expertise" id="expertise">
   <div className="expertise-inner">
     <h2 className="expertise-title">

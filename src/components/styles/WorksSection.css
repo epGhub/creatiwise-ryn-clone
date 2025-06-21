@@ -43,7 +43,7 @@
   border-radius: 24px;
   overflow: hidden;
   flex-direction: row;
-  isolation: isolate; /* ensures ::after stays behind */
+  isolation: isolate; 
 }
 
 .work-card::before {
@@ -130,7 +130,7 @@
   background: #e2e2e2;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .works-header, .works-list {
     width: 90%;

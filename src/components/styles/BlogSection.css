@@ -1,7 +1,4 @@
 
-
-/* BlogSection.css */
-
 .blog {
   background-color: #010208;
   color: white;
@@ -86,7 +83,6 @@
   background-color: #e0e0e0;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .blog-card {
     flex-direction: column;

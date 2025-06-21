@@ -50,7 +50,7 @@
   border-radius: 2px;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .expertise-cards {
     grid-template-columns: 1fr;

@@ -1,46 +1,4 @@
-// import React from 'react';
-// import './styles/WorksSection.css';
 
-// const works = [
-//   {
-//     title: 'Analysis Application',
-//     image: '/images/analysis.png',
-//     tags: ['Web', 'UI/UX'],
-//     button: 'View Case Study',
-//   },
-//   {
-//     title: 'Fortknox Application',
-//     image: '/images/fortknox.png',
-//     tags: ['Mobile', 'Finance'],
-//     button: 'View Case Study',
-//   },
-//   {
-//     title: 'Zeno Application',
-//     image: '/images/zenocide.png',
-//     tags: ['Web', 'Dashboard'],
-//     button: 'View Case Study',
-//   }
-// ];
-
-// const WorksSection = () => (
-//   <section className="works-section">
-//     <h2>Works</h2>
-//     <div className="cards-container">
-//       {works.map((item, index) => (
-//         <div key={index} className="work-card">
-//           <img src={item.image} alt={item.title} />
-//           <h3>{item.title}</h3>
-//           <p>{item.tags.join(' • ')}</p>
-//           <button>{item.button}</button>
-//         </div>
-//       ))}
-//     </div>
-//   </section>
-// );
-
-// export default WorksSection;
-
-// components/WorksSection.jsx
 import React from "react";
 import "./styles/WorksSection.css";
 

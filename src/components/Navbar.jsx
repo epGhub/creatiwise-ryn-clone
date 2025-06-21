@@ -1,4 +1,3 @@
-// Navbar.jsx
 import React, { useState } from "react";
 import "./styles/Navbar.css";
 
@@ -15,7 +14,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      {/* Logo */}
+
       <div className="logo">
         <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" className="logo-icon">
           <rect x="8" y="4" width="6" height="28" fill="white" />
@@ -25,14 +24,12 @@ const Navbar = () => {
         </svg>
       </div>
 
-      {/* Hamburger Icon */}
       <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
       </div>
 
-      {/* Nav Links */}
       <div className={`nav-links ${menuOpen ? "open" : ""}`}>
         {navItems.map((item) => (
           <button
@@ -48,7 +45,6 @@ const Navbar = () => {
         ))}
       </div>
 
-      {/* Hear Me */}
       <div className="contact-wrapper">
         <button className="contact-btn">Hear Me</button>
       </div>
